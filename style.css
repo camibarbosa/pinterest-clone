@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    color: #111111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.header {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav input {
+    width: 520px;
+    height: 50px;
+    border: none;
+    background-color: #E1E1E1;
+    border-radius: 40px;
+}
+
+.nav input::placeholder {
+    padding-left: 40px;
+}
+
+.nav .search {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+    align-items: center;
+}
+
+.header-main-link {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #111111;
+    color: rgb(249, 249, 249);
+    width: 130px;
+    height: 45px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.header-img {
+    width: 30px;
+    height: 30px;
+}
+
+.notification {
+    width: 20px;
+    height: 20px;
+}
+
+.account {
+    border-radius: 50%;
+}
+
+.grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 180px;
+    grid-row-gap: 12em;
+}
+
+.img img{
+    border-radius: 20px;
+    width: 230px;
+    height: 350px;
+}
